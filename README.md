@@ -114,3 +114,40 @@ cat > ChangeLog.md <<EOF<br/>
 - Initial RPM release<br/>
 EOF
 ```
+9. Вернёмся в корневой каталог task_lab06, создаём .travis.yml и редактируем его
+
+_cd ..<br/>
+touch .travis.yml<br/>
+vim .travis.yml_
+
+```sh
+language: cpp
+
+os:
+- linux
+- osx
+- windows
+
+addons:
+  apt:
+    packages:
+    - rpm
+
+script:
+- cd ./solver_application
+- cmake -H. -B_build
+- cmake --build _build
+- if ["$TRAVIS_OS_NAME" = "linux"]; then cpack -G TGZ; fi
+- if ["$TRAVIS_OS_NAME" = "osx"]; then cpack -G DragnDrop; fi
+
+build_scripts:
+- if ["$TRAVIS_OS_NAME" = "windows"]; then cpack -G WIX; fi
+
+deploy:
+  provider: releases
+  api_key: "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"
+  file: "_build/solver-0.1.0.0-Linux.tar.gz"
+  skip_cleanup: true
+  on:
+    tags: true
+```
