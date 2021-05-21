@@ -1,4 +1,0 @@
-/home/dan/Dan10022002/workspace/tasks/task_lab03/formatter_ex_lib/_build/CMakeFiles/rebuild_cache.dir
-/home/dan/Dan10022002/workspace/tasks/task_lab03/formatter_ex_lib/_build/CMakeFiles/edit_cache.dir
-/home/dan/Dan10022002/workspace/tasks/task_lab03/formatter_ex_lib/_build/CMakeFiles/formatter.dir
-/home/dan/Dan10022002/workspace/tasks/task_lab03/formatter_ex_lib/_build/CMakeFiles/formatter_ex.dir
