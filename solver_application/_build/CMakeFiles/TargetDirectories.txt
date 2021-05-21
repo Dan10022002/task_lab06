@@ -1,0 +1,6 @@
+/home/dan/Dan10022002/workspace/tasks/task_lab03/solver_application/_build/CMakeFiles/rebuild_cache.dir
+/home/dan/Dan10022002/workspace/tasks/task_lab03/solver_application/_build/CMakeFiles/edit_cache.dir
+/home/dan/Dan10022002/workspace/tasks/task_lab03/solver_application/_build/CMakeFiles/solver_lib.dir
+/home/dan/Dan10022002/workspace/tasks/task_lab03/solver_application/_build/CMakeFiles/formatter_ex.dir
+/home/dan/Dan10022002/workspace/tasks/task_lab03/solver_application/_build/CMakeFiles/formatter.dir
+/home/dan/Dan10022002/workspace/tasks/task_lab03/solver_application/_build/CMakeFiles/myExe.dir
