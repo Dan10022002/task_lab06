@@ -106,9 +106,11 @@ _gsed -i 's/lab05/lab06/g' README.md_
 
 8. Создаём ChangeLog.md и редактируем его
 
-_touch ChangeLog.md<br/>
+```sh
+touch ChangeLog.md<br/>
 export DATE="`LANG=en_US date +'%a %b %d %Y'`"<br/>
 cat > ChangeLog.md <<EOF<br/>
 * ${DATE} ${GITHUB_USERNAME} <${GITHUB_EMAIL}> 0.1.0.0<br/>
 - Initial RPM release<br/>
-EOF_
+EOF
+```
