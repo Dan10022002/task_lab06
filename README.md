@@ -151,3 +151,14 @@ deploy:
   on:
     tags: true
 ```
+
+10. Создаём метку и заливаем на гитхаб
+
+_git add .<br/>
+git commit -m"added cpack config"<br/>
+git tag v0.1.0.0<br/>
+git push origin master --tags_
+
+11. Авторизируемся на  https://travis-ci.org и запускаем тест сборки
+
+![test](https://api.travis-ci.org/Dan10022002/task_lab06.svg?branch=master&status=passed)
